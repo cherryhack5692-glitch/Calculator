@@ -1,7 +1,32 @@
-# Calculator Project
+# 🧮 Calculator App
+
 A simple and responsive Calculator application built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations with a clean and user-friendly interface.
 
-🛠️ Technologies Used
-HTML5
-CSS3
-JavaScript (ES6)
+## 🚀 Features
+
+* Addition, Subtraction, Multiplication, and Division
+* Clear (AC) functionality
+* Delete (DEL) functionality
+* Responsive design for desktop and mobile devices
+* Real-time calculation display
+* Easy-to-use interface
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+## 📂 Project Structure
+
+```bash
+calculator-project/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+
+⭐ If you found this project useful, consider giving it a star!
