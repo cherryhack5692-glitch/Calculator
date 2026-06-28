@@ -1,0 +1,120 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #2c2c2c;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar h1 {
+  font-size: 1.6rem;
+  color: #ff9800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Main Section */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+/* Calculator */
+.calculator {
+  display: grid;
+  grid-template-rows: minmax(100px, auto) repeat(5, 60px);
+  grid-template-columns: repeat(4, 70px);
+  background-color: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 16px;
+  gap: 0.8rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.calculator button {
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  background-color: #444;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.calculator button:hover {
+  background-color: #555;
+}
+
+.calculator .operation,
+.calculator .equal {
+  background-color: #ff9800;
+  color: #1f1f1f;
+}
+
+.calculator .operation:hover,
+.calculator .equal:hover {
+  background-color: #e68900;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+/* Output Display */
+.output {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  font-size: 2rem;
+  word-break: break-word;
+}
+
+.output .prev-display {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #2c2c2c;
+  color: #ccc;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
