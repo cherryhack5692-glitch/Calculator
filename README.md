@@ -29,10 +29,7 @@ calculator-project/
 ```
 
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-<p align="center">
-  <a href="https://cherry2695-calculator.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo">
-  </a>
-</p>
+🔗 **Calculator:**  
+https://cherry2695-calculator.netlify.app/
