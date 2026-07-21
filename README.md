@@ -29,4 +29,7 @@ calculator-project/
 ```
 
 
-⭐ If you found this project useful, consider giving it a star!
+## 🚀 Live Demo
+
+🔗 **WeatherSphere:**  
+https://cherry2695-calculator.netlify.app/
